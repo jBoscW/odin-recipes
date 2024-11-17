@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    font-size: x-large;
+    background-color: rgba(225, 203, 175, 0.924);
+    color: rgb(30, 52, 80, 0.95);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.ingredients li,
+.steps li {
+    text-align: left;
+    background-color: white;
+}
+
+/* ul li .extra li {
+    font-weight: 200px;
+    background-color: rgb(127, 127, 31);
+} */
+
+h1 {
+    color: blueviolet;
+}
+
+h1.Recipee {
+    font-size: 50px;
+    color: darkblue;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
