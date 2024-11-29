@@ -15,12 +15,21 @@ li {
     font-weight: bold;
 }
 
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 button {
-    display: block;
-    /* background-color: rgba(225, 203, 175, 0.924); */
     font-size: 25px;
-    padding: 5px 20px;
-    margin: 20px auto;
+    padding: 5px 30px;
+}
+
+
+#main button {
+    flex: 1;
+    margin: 1.5em 2.2em;
 }
 
 .menu {
@@ -65,7 +74,6 @@ button {
 h1 {
     color: blueviolet;
     padding-bottom: 30px;
-    width: 800px;
     margin: 0 auto 50px;
     border-bottom: 2px dotted yellowgreen;
 }
